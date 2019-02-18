@@ -99,7 +99,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "blog.snutils.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "www.snutils.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -107,7 +107,7 @@ url-pretty: "blog.snutils.com"  # eg. "deanattali.com/beautiful-jekyll"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-134726750-1"
 
 # Google Tag Manager ID
 #gtm: ""

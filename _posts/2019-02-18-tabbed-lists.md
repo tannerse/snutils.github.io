@@ -8,7 +8,7 @@ title: 2019-02-18-Tabbed-Lists
 ![Tabbed List Widget]({{site.baseurl}}/img/tabbed-list-widget.JPG)
 
 # HTML Template
-{% highlight html linenos %}
+{% highlight html %}
 <div class="vms-status-tabs">
   <div class="three-tabs row">
     <div class="all-tabs">
@@ -44,7 +44,7 @@ title: 2019-02-18-Tabbed-Lists
 {% endhighlight %}
 
 # CSS
-{% highlight css linenos %}
+{% highlight css %}
 .panel-heading > .panel-title{font-size: 28px;font-family: SourceSansPro;color: #FFF;font-weight: lighter;margin-left:15px}.glyphicon-menu-hamburger{display:none !important}.inactive{cursor: not-allowed;pointer-events: none}.pd{margin:15px}.badge{font-weight:200 !important;font-size: 14px !important}.fade.ng-enter{transition:0.5s linear all;opacity:0}.fade.ng-enter.ng-enter-active{opacity:1}.vms-status-tabs{margin-bottom:20px;.small-text{font-size: 10px;color: #595959;text-transform: uppercase}.light-grey-bg{background: #f9f9f9}.people-card-media{padding-right: 10px;padding-left: 10px;display: flex;justify-content: flex-start;align-items: center;float: left;margin: 0px;.flex-it-align-top{display: flex;justify-content: space-between}.media-left{.list__photo{width: 35px;height: 35px}.initials-badge{min-width: 36px;float: left;margin-top: 0px;border-radius: 50%;line-height: 1;font-size: 14px;margin-left: 0px;padding: 10px 10px;font-weight: 200;background: #AEB2B3}}}.three-tabs{.orange{color: #e89033}.green{color: #70be5a}.red{color: #ff4000}.bg-green{background: #70be5a !important}.bg-red{background: #ff4000 !important}.bg-orange{background: #e89033}.bg-primary{background: #7889ba}.all-tabs{display: flex;padding: 0px;.each-tab{width: 33.3%;float: left;text-align: center;padding: 20px 10px;background: #fff;//border-bottom: 1px solid #e4e5e6;&.active{background:#428bca;border-left: 0px;border-bottom: 0px;border-right: 0px;//border-bottom: 1px solid #7889ba;.name{color: #FFF}}p{margin-bottom: 0px}.name{font-size: 16px;font-weight: normal;color: #909090;text-transform: uppercase;//background: #fbfbfb}.fa{color: #b4b2b3}}}.tab-details{padding: 10px;justify-content: space-between;align-items: center;.flex-it{display: flex;align-items: center;justify-content: space-around}.svg-icon{height: 23px;width: 27px;fill: #9C9C9C}p{margin-left: 5px;margin-bottom: 0px}.detail-numbers{font-size: 20px;font-weight:200;color: #595959}}}}
 {% endhighlight %}
 
@@ -176,4 +176,3 @@ function ($scope, spUtil, $location, spAriaFocusManager, $timeout) {
  data.listWidget3 = $sp.getWidget('widget-data-table', widget3Params);
 })();
 {% endhighlight %}
-

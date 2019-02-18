@@ -1,7 +1,9 @@
 ---
 layout: post
-published: false
-title: 2019-02-18-Tabbed-Lists
+title: Tabbed Lists Widget
+subtitle: Widget to show multiple data tables in tabs
+tags: [widgets]
+comments: true
 ---
 ## Tabbed List Widget
 

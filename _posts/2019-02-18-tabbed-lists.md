@@ -7,7 +7,7 @@ comments: true
 ---
 ## Tabbed List Widget
 
-![Tabbed List Widget]({{site.baseurl}}/img/tabbed-list-widget.JPG)
+![Tabbed List Widget](/img/tabbed-list-widget.JPG)
 
 # HTML Template
 {% highlight html %}

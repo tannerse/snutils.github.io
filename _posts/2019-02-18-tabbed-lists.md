@@ -5,7 +5,21 @@ subtitle: Widget to show multiple data tables in tabs
 tags: [widgets]
 comments: true
 ---
-## Tabbed List Widget
+
+This is a widget that you can use to show multiple data tables lists on your service portal, it comes OOTB with 3 tabs, but could easily be extendable and configurable to include more tabs.
+
+<b>Installation Steps</b>
+
+Client Script
+Configure the tab names
+
+Server Script
+Configure the tables, fields ,filters and pages that open on list click.
+
+Portal
+Add it to any page.
+
+## Screenshot
 
 ![Tabbed List Widget](/img/tabbed-list-widget.JPG)
 

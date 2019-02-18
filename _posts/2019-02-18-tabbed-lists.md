@@ -11,13 +11,17 @@ This is a widget that you can use to show multiple data tables lists on your ser
 <b>Installation Steps</b>
 
 Client Script
+
 Configure the tab names
 
 Server Script
+
 Configure the tables, fields ,filters and pages that open on list click.
 
 Portal
+
 Add it to any page.
+
 
 ## Screenshot
 

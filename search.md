@@ -2,7 +2,6 @@
 layout: page
 title: Search this site
 ---
-
 <script>
   (function() {
     var cx = '003834670605450530612:elnnu3b8mvy';

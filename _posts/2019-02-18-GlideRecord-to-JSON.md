@@ -57,7 +57,7 @@ GlideRecordAjaxUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 new GlideRecordAjaxUtils().getRecord('TABLE_NAME','RECORD_SYS_ID')
 
 /* Return specific fields */
-new GlideRecordAjaxUtils().getRecord('TABLE_NAME','RECORD_SYS_ID', ["sys_id","number","short_description"])
+new GlideRecordAjaxUtils().getRecord('TABLE_NAME','RECORD_SYS_ID', ["FIELD_NAME1","FIELD_NAME2"])
 {% endhighlight %}
 
 ## Client Side

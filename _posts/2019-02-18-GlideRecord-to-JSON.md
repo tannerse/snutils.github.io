@@ -49,7 +49,7 @@ GlideRecordAjaxUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 ## Server Side
 
 {% highlight javascript linenos %}
-new GlideRecordAjaxUtils().getRecord('incident','37bcd903db3de300f8079414db9619d0')
+new GlideRecordAjaxUtils().getRecord('incident','RECORD_SYS_ID')
 {% endhighlight %}
 
 ## Client Side
@@ -57,10 +57,10 @@ new GlideRecordAjaxUtils().getRecord('incident','37bcd903db3de300f8079414db9619d
 var ga = new GlideAjax('GlideRecordAjaxUtils');
 ga.addParam('sysparm_name', 'getRecord');
 ga.addParam('sysparm_table', 'incident');
-ga.addParam('sysparm_sys_id', '37bcd903db3de300f8079414db9619d0');
+ga.addParam('sysparm_sys_id', 'RECORD_SYS_ID');
 ga.getXML(function(response){
     var responseDocument = response.responseXML.documentElement;
     var answer = responseDocument.getAttribute('answer');    
-    console.log(serverObj);
+    console.log(answer);
 });
 {% endhighlight %}

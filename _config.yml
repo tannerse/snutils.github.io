@@ -25,9 +25,9 @@ description: Snippets and Utilities
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Snippets: "/tags/#snippets"
-    - Widgets: "/tags/#widgets"
-    - Portals: "/tags/#portals"
+    - Snippets: "https://www.snutils.com/tags/#snippets"
+    - Widgets: "https://www.snutils.com/tags/#widgets"
+    - Portals: "https://www.snutils.com/tags/#portals"
   Contact: "mailto:diego@snutils.com"
   
 # Image to show in the navigation bar - image must be a square (width = height)

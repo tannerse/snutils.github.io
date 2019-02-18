@@ -6,7 +6,7 @@ tags: [snippets]
 comments: true
 ---
 
-This is a helper script include to return entire GlideRecord as a JSON string that supports server side or client side scripting using GlideAjax. 
+This is a helper script include to return entire GlideRecord or specific fields as a JSON string that supports server side or client side scripting using GlideAjax. 
 
 ## Script Include
 

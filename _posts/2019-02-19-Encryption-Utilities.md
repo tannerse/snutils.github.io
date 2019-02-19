@@ -6,7 +6,7 @@ tags: [snippets, utilities]
 comments: true
 ---
 
-This is a script include to allow encryption of strings using two methods, one-way (SHA256) or two-way (GlideEncrypter), the two-way method supports usage of 24 char key to encrypt string. 
+This is an include script for encrypting and decrypting strings using two methods, one-way (SHA256) or two-way (GlideEncrypter), the two-way method also supports 24 char key as parameter to encrypt. 
 
 ## Script Include
 
